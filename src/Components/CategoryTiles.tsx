@@ -3,7 +3,7 @@ import React from 'react'
 interface CategoryTileProps {
     title: string;
     image: string;
-    onClick: () => void;
+    onClick: (() => void) | undefined;
 }
 
 const CategoryTiles: React.FC<CategoryTileProps> = ({title,image,onClick}) => {
