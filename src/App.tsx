@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './Components/Navbar';
 import Hero from './Components/Hero';
 import Categories from './Components/Categories';
+import SignupForm from './Components/SignupForm';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar></Navbar>
       <Hero></Hero>
       <Categories></Categories>
+      <SignupForm></SignupForm>
     </div>
   );
 }
