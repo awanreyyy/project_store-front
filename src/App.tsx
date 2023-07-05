@@ -6,6 +6,9 @@ import Hero from './Components/Hero';
 import Categories from './Components/Categories';
 import SignupForm from './Components/SignupForm';
 import ShopByCategory from './Components/ShopByCategory';
+// import FlashSale from './Components/FlashSale';
+import FlashSaleCategory from './Components/FlashSaleCategory';
+
 
 function App() {
   return (
@@ -13,9 +16,10 @@ function App() {
       <Navbar></Navbar>
       <Hero></Hero>
       <Categories></Categories>
+      <FlashSaleCategory></FlashSaleCategory>
+      {/* <FlashSale></FlashSale> */}
       <ShopByCategory></ShopByCategory>
-      <SignupForm></SignupForm>
-      
+      <SignupForm></SignupForm>  
     </div>
   );
 }
