@@ -8,7 +8,7 @@ interface SocialMediaLink {
 
 const socialMediaLinks: SocialMediaLink[] = [
   {
-    name: 'Twitter',
+    name: 'Threads',
     url: 'https://twitter.com',
     icon: 'fab fa-twitter',
   },
@@ -16,6 +16,16 @@ const socialMediaLinks: SocialMediaLink[] = [
     name: 'Instagram',
     url: 'https://instagram.com',
     icon: 'fab fa-instagram',
+  },
+  {
+    name: 'Facebook',
+    url: 'https://instagram.com',
+    icon: 'fab fa-facebook',
+  },
+  {
+    name: 'Twitter',
+    url: 'https://twitter.com',
+    icon: 'fab fa-twitter',
   },
   // Add more social media links here
 ];
