@@ -31,7 +31,7 @@ const saleItems = [
     },
         { 
             id: 4, 
-            name: 'Upto 25% off', 
+            name: 'Upto 20% off', 
             onClick: () => {
             window.location.href = 'https://www.youtube.com';
         },

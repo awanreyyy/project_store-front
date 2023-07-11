@@ -9,7 +9,7 @@ interface CategoryItemProps {
   };
 }
 
-const CategoryItem: React.FC<CategoryItemProps> = ({ category }) => {
+const ShopByCategoryItem: React.FC<CategoryItemProps> = ({ category }) => {
     const handleClick = () => {
         category.onClick(); // Invoke the onClick function when the tile is clicked
     };
@@ -22,4 +22,4 @@ const CategoryItem: React.FC<CategoryItemProps> = ({ category }) => {
     );
 };
 
-export default CategoryItem;
+export default ShopByCategoryItem;

@@ -12,9 +12,9 @@ const SignupForm: React.FC = () => {
   };
 
   return (
-    <div className="flex justify-start items-center h-screen ml-40">
-      <form className="max-w-md w-full p-6 bg-white rounded-lg shadow-lg" onSubmit={handleSubmit}>
-        <h2 className="text-2xl font-bold mb-6">Sign up</h2>
+    <div className="flex p-10 justify-center items-center h-100 bg-gray-100">      
+    <form className="max-w-md w-full p-6 bg-white rounded-lg shadow-lg" onSubmit={handleSubmit}>
+        <h2 className="text-2xl font-bold mb-6">Sign up for style news</h2>
         <div className="mb-6">
           <label htmlFor="name" className="block mb-2 font-medium text-gray-700">
             Name

@@ -3,7 +3,7 @@ import heroImage from '../Pictures/heroImage.jpg';
 
 function Hero(): JSX.Element {
   return (
-    <section className="bg-gray-900 py-16">
+    <section className="bg-gray-900 py-10 w-100 h-100">
       <div className="container mx-auto">
         <div className="flex items-center justify-center">
           <img

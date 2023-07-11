@@ -8,6 +8,7 @@ import SignupForm from './Components/SignupForm';
 import ShopByCategory from './Components/ShopByCategory';
 // import FlashSale from './Components/FlashSale';
 import FlashSaleCategory from './Components/FlashSaleCategory';
+import SocialMediaSection from './Components/SocialMediaSection';
 
 
 function App() {
@@ -19,7 +20,9 @@ function App() {
       <FlashSaleCategory></FlashSaleCategory>
       {/* <FlashSale></FlashSale> */}
       <ShopByCategory></ShopByCategory>
-      <SignupForm></SignupForm>  
+      <SignupForm></SignupForm> 
+      <SocialMediaSection></SocialMediaSection>
+       
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import womenImg from '../Pictures/girl.jpeg'
-import CategoryItem from './CategoryItem';
+import ShopByCategoryItem from './ShopByCategoryItem';
 
 const categories = [
   {
@@ -22,7 +22,7 @@ const categories = [
   {
     id: 3,
     name: 'Skirts',
-    image: womenImg, // Replace with the actual image URL for Home & Kitchen
+    image: womenImg, 
     onClick: () => {
         window.location.href = 'https://www.youtube.com';
     },
@@ -30,7 +30,7 @@ const categories = [
   {
     id: 4,
     name: 'Bottoms',
-    image:womenImg, // Replace with the actual image URL for Books
+    image:womenImg, 
     onClick: () => {
         window.location.href = 'https://www.youtube.com';
     },
@@ -39,7 +39,7 @@ const categories = [
   {
     id: 5,
     name: 'Trousers',
-    image:womenImg, // Replace with the actual image URL for Books
+    image:womenImg, 
     onClick: () => {
         window.location.href = 'https://www.youtube.com';
     },
@@ -47,7 +47,7 @@ const categories = [
  {
     id: 6,
     name: 'Pants',
-    image:womenImg, // Replace with the actual image URL for Books
+    image:womenImg, 
     onClick: () => {
         window.location.href = 'https://www.youtube.com';
     },
@@ -55,7 +55,7 @@ const categories = [
  {
     id: 7,
     name: 'Swimwear',
-    image:womenImg, // Replace with the actual image URL for Books
+    image:womenImg, 
     onClick: () => {
         window.location.href = 'https://www.youtube.com';
     },
@@ -63,7 +63,7 @@ const categories = [
  {
     id: 8,
     name: 'Sports wear',
-    image:womenImg, // Replace with the actual image URL for Books
+    image:womenImg, 
     onClick: () => {
         window.location.href = 'https://www.youtube.com';
     },
@@ -76,7 +76,7 @@ const ShopByCategory: React.FC = () => {
       <h2 className="text-2xl font-semibold mb-4">Shop by Category</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {categories.map((category) => (
-          <CategoryItem key={category.id} category={category} />
+          <ShopByCategoryItem key={category.id} category={category} />
         ))}
       </div>
     </div>
